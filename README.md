@@ -14,7 +14,7 @@ The simulation relies on the Non-Equilibrium Green's Function (NEGF) formalism t
 As a first-order engineering sizing tool, this model relies on explicit physical simplifications:
 * **Constant Effective Mass:** The calculation assumes a constant average effective mass across the entire domain. Discontinuities and variations in effective mass at the heterojunctions are ignored.
 * **Static Potential Profile:** The voltage drop under bias is approximated using an empirical capacitive divider model based on the relative permittivities of the respective oxides. It does not perform a self-consistent resolution with the Poisson equation.
-* **1D Ballistic Approximation:** The formulation is strictly one-dimensional. It neglects transverse modes and all inelastic scattering mechanisms, such as electron-phonon or electron-defect interactions.
+* **1D Ballistic Approximation:** The formulation is strictly one dimensional. It neglects transverse modes and all inelastic scattering mechanisms, such as electron-phonon or electron-defect interactions.
 
 ## Usage
 The source code consists of a single script designed for direct execution in MATLAB or GNU Octave. Physical and geometric parameters including oxide thicknesses, potential barriers, relative permittivities, and voltage sweep ranges are defined at the beginning of the file and must be adjusted manually to simulate different material configurations.
