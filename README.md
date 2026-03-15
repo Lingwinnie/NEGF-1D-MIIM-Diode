@@ -17,7 +17,7 @@ As a first-order engineering sizing tool, this model relies on explicit physical
 * **1D Ballistic Approximation:** The formulation is strictly one-dimensional. It neglects transverse modes and all inelastic scattering mechanisms, such as electron-phonon or electron-defect interactions.
 
 ## Usage
-The source code consists of a single script designed for direct execution in MATLAB or GNU Octave. Physical and geometric parameters—including oxide thicknesses, potential barriers, relative permittivities, and voltage sweep ranges—are defined at the beginning of the file and must be adjusted manually to simulate different material configurations.
+The source code consists of a single script designed for direct execution in MATLAB or GNU Octave. Physical and geometric parameters including oxide thicknesses, potential barriers, relative permittivities, and voltage sweep ranges are defined at the beginning of the file and must be adjusted manually to simulate different material configurations.
 
 ## Author
 
