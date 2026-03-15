@@ -13,7 +13,7 @@ E_T=Kb*T
 m = 0.1 * 9.11e-31%masse eff moyenne pour les oxydes
 
 %position vector
-Dx= 1e-10; %position mesh (m)   %Bien mettre beaucoup pts car approx mass eff disparait si plus parabol pour H
+Dx= 1e-10; %position mesh (m)   %Dense grid required the m_eff approximation breaks down outside the parabolic regime of H
 N=250; %position points number
 XX=(1:N).*Dx;%position vector
 L=Dx*N; %length
