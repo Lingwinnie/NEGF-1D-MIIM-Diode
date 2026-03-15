@@ -18,3 +18,8 @@ As a first-order engineering sizing tool, this model relies on explicit physical
 
 ## Usage
 The source code consists of a single script designed for direct execution in MATLAB or GNU Octave. Physical and geometric parameters—including oxide thicknesses, potential barriers, relative permittivities, and voltage sweep ranges—are defined at the beginning of the file and must be adjusted manually to simulate different material configurations.
+
+## Author
+
+**[Lingwinnie]** Master's Student in [Nanosciences and Nanotechnologies: Nanoscale and Quantum Engineering] at [Aix-Marseille Université].
+
